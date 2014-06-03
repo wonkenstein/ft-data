@@ -4,13 +4,11 @@ ft-data
 # Background #
 This repository was created as I heard someone talking about trying to import data from the Financial Times data into an Excel spreadsheet.
 
-The data was in the form of a pdf that was downloaded from the website, but they couldn't cut and paste the data from the pdf into Excel.
+The data was in the form of a pdf that was downloaded from the website, but they couldn't cut and paste the data from the pdf into Excel. The data in the table wasn't available in it's own cell after a cut and paste.
 
 As anyone that has experienced cut and paste from a pdf, whenever they tried that, the formatting would be all messed up. Rows were out of order and looked to be random and all the data stuffed into the first cell.
 
-At first I suggested looking for a pdf-to-excel converter.
-
-I found a couple online and tried them, but the results were rather disappointing. Some data disappeared during the conversion and the resulting MS Excel workbook wasn't much use as the formatting was still messed up.
+At first I suggested looking for a pdf-to-excel converter. I found a couple online and tried them, but the results were rather disappointing. Some data disappeared during the conversion and the resulting MS Excel workbook wasn't much use as the formatting was still messed up.
 
 So I decided that I can do better and wrote a php script to format the data into something useful to the end user. All the relevant data should be split into rows and columns just like the original pdf document.
 
@@ -43,7 +41,7 @@ This will read in the csv and process it, outputting a new csv file where the da
 The output file should be able to be read by MS Excel or any spreadsheet program.
 
 ## Excel Workbook ##
-Again visit the ft.com website and getthe pdf.
+Again visit the ft.com website and get the pdf.
 
 Next you need to cut and paste the data into the MS Excel Workbook on Sheet 1, starting at A2.
 
