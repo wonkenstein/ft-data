@@ -54,7 +54,7 @@ Rows that have no data should be skipped and be empty in the "formatted" workshe
 Country and Currency have been split into separate columns as this was a request by the user.
 
 * FT_Format_Currencies_Countries.xlsm
-    * Macro enabled Excel Workbook with teh FT data cut & pasted in
+    * Macro enabled Excel Workbook with the FT data cut & pasted in
 * Sheet1.cls
     * Exported VBScript run when the button is clicked
 
